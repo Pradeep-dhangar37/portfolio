@@ -8,8 +8,8 @@ const Home = () => {
           <div className='flex flex-col justify-center items-center'>
             <p className='text-2xl text-center'>
               <span>Hi! Im Pradeep, a full-stack web developer.</span>
-              <span className="border-animation"></span>
             </p>
+             <span className="border-animation mt-4"></span>
             <p className='mt-4 text-lg text-center md:text-left'>
               Welcome to my portfolio website. I specialize in creating dynamic and engaging web applications using cutting-edge technologies. With a strong foundation in both frontend and backend development, I strive to build user-friendly and scalable solutions that exceed expectations.
             </p>
