@@ -1,0 +1,17 @@
+/* #Home page css */
+.border-animation {
+  display: inline-block;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  animation: borderSlide 2s forwards;
+}
+
+@keyframes borderSlide {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
