@@ -42,7 +42,7 @@ export const Nav = () => {
               className="inline-block p-4 text-black after:content-[''] after:block after:w-0 after:h-[2px] after:bg-black after:transition-width after:duration-300 after:ease hover:after:w-full"
               href="#"
               onClick={() => {
-                alert('Home clicked');
+                // alert('Home clicked');
                 handleClose(); // Close the menu when clicking a link
               }}
             >
@@ -54,7 +54,7 @@ export const Nav = () => {
               className="inline-block p-4 text-black after:content-[''] after:block after:w-0 after:h-[2px] after:bg-black after:transition-width after:duration-300 after:ease hover:after:w-full"
               href="#"
               onClick={() => {
-                alert('Project clicked');
+                // alert('Project clicked');
                 handleClose(); // Close the menu when clicking a link
               }}
             >
@@ -66,7 +66,7 @@ export const Nav = () => {
               className="inline-block p-4 text-black after:content-[''] after:block after:w-0 after:h-[2px] after:bg-black after:transition-width after:duration-300 after:ease hover:after:w-full"
               href="#skills"
               onClick={() => {
-                alert('Skills clicked');
+                // alert('Skills clicked');
                 handleClose(); // Close the menu when clicking a link
               }}
             >

@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 
 export const Contact = () => {
   return (
-    <section id='contact' className='min-h-screen'>
+    <section id='contact' className='min-h-[50vh]'>
       <div className='container mx-auto px-4 py-16'>
         <div className='text-center mb-12'>
           <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl text-gray-800 underline'>
