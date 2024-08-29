@@ -26,7 +26,7 @@ export const Nav = () => {
         </button>
       </div>
       <div 
-        className={`fixed top-0 right-0 h-full w-64 bg-white  transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0 shadow-md mt-30 top-11 p-11' : 'translate-x-full'} md:relative md:flex md:items-center md:w-auto md:h-auto md:translate-x-0 `}
+        className={`fixed md:top-0 md:mt-0 right-0  md:p-0 h-full w-64 bg-white  transition-transform duration-300 ease-in-out mt-30 top-12 p-11 ${isOpen ? 'translate-x-0 shadow-md ' : 'translate-x-full ' } md:relative md:flex md:items-center md:w-auto md:h-auto md:translate-x-0 `}
       >
         {isOpen && (
           <button
@@ -36,7 +36,7 @@ export const Nav = () => {
             {/* <FaTimes className="w-6 h-6" /> */}
           </button>
         )}
-        <ul className={`flex flex-col md:flex-row md:space-x-4 ${isOpen ? 'mt-12' : 'mt-0'}`}>
+        <ul className={`flex flex-col md:flex-row md:space-x-4 md:m-0 ${isOpen ? 'mt-12' : 'mt-12'}`}>
           <li className='relative mb-2 md:mb-0'>
             <a
               className="inline-block p-4 text-black after:content-[''] after:block after:w-0 after:h-[2px] after:bg-black after:transition-width after:duration-300 after:ease hover:after:w-full"
@@ -78,7 +78,7 @@ export const Nav = () => {
               className="inline-block p-4 text-black after:content-[''] after:block after:w-0 after:h-[2px] after:bg-black after:transition-width after:duration-300 after:ease hover:after:w-full"
               href="#"
               onClick={() => {
-                alert('Contact clicked');
+                // alert('Contact clicked');
                 handleClose(); // Close the menu when clicking a link
               }}
             >
